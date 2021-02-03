@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+}
+body, html {
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+    position: relative;
+}
+body {
+    background-color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+    overflow: auto;
+}
+
+.header > .row > div {
+    background-color:#374457;
+}
+.sub-header > .row > div {
+    background-color: #29343d;
+}
+.sub-header span {
+    margin: 0 1rem;
+}
+.sub-header span > i {
+    vertical-align: middle;
+}
+.sub-header span > small {
+    margin-left: .25rem;
+}
