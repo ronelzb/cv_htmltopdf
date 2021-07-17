@@ -2,6 +2,7 @@ html {
     height: 100%;
 }
 body, html {
+    font-size: 12px; /*h6 small*/
     margin: 0;
     min-height: 100%;
     padding: 0;
@@ -15,6 +16,7 @@ body {
 
 .header > .row > div {
     background-color:#374457;
+    padding: 48px 48px 0 48px;
 }
 .sub-header > .row > div {
     background-color: #29343d;
@@ -27,4 +29,16 @@ body {
 }
 .sub-header span > small {
     margin-left: .25rem;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+hr.line-break {
+    border: 1px solid black;    
+    position: absolute;
+    margin: unset;
+    top: 1056px;
+    width: 100%;
 }
