@@ -14,6 +14,13 @@ body {
     overflow: auto;
 }
 
+.text-header-color {
+    color: #00BCD4;
+}
+.bg-skill-color {
+    background-color: #00BCD4;
+}
+
 .header > .row > div {
     background-color:#374457;
     padding: 48px 48px 0 48px;
