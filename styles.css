@@ -17,6 +17,9 @@ body {
 .text-header-color {
     color: #00BCD4;
 }
+.text-justify {
+    text-align: justify;
+}
 .bg-skill-color {
     background-color: #00BCD4;
 }
@@ -36,10 +39,6 @@ body {
 }
 .sub-header span > small {
     margin-left: .25rem;
-}
-
-.text-justify {
-    text-align: justify;
 }
 
 hr.line-break {
