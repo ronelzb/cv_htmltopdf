@@ -41,6 +41,10 @@ body {
     margin-left: .25rem;
 }
 
+.content > .row {
+    padding: 0 48px;
+}
+
 hr.line-break {
     border: 1px solid black;    
     position: absolute;
