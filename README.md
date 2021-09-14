@@ -8,7 +8,9 @@ This repo was created to make my own professional Resume and help others like me
 
 When creating a tailored resume you should following these guidelines:
 
-* Page size: US Letter (8.5 x 11 inches) => (816 x 1056 px).
+* Page size:
+    * US Letter (8.5 x 11 inches) => (816 x 1056 px).
+    * A4 (8.25 X 11.75 inches) => (792 x 1128)
 
 * Recommended Fonts: Calibri (modern), Arial (a happy medium), Times New Roman (traditional).
 

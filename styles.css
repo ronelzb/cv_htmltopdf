@@ -10,12 +10,20 @@ body, html {
 }
 body {
     background-color: #fff;
-    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Open Sans", "Helvetica Neue", "Arial", sans-serif;
     overflow: auto;
 }
+.header > .row > div {
+    padding: 10mm 10mm 0 10mm !important;
+}
+.content > .row {
+    padding: 0 10mm !important;
+}
 
-.text-header-color {
-    color: #00BCD4;
+.text-header {
+    color: #005050;
+    border-bottom: 1px solid;
+    font-weight: bold;
 }
 .text-justify {
     text-align: justify;
@@ -51,4 +59,9 @@ hr.line-break {
     margin: unset;
     top: 1056px;
     width: 100%;
+}
+
+.page-break-before {
+    padding-top: 10mm;
+    page-break-before: always;    
 }
